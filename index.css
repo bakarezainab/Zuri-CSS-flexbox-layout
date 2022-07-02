@@ -1,0 +1,139 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    background-color: hsla(0, 0%, 100%, 0.75);
+  }
+  #container {
+      position: relative;
+      width: 900px;
+      height: 450px;
+      display: flex;
+      flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* align-items: center; */
+    /* padding: 0 4px; */
+      /* border: 2px solid black; */
+      margin: 180px;   
+      /* padding: 10px 70px; */
+       
+      
+    }
+
+  div #orange {
+      position: absolute;
+   
+    text-align: center;
+    background: hsl(31, 77%, 52%);
+    margin: 2px solid black;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 10px;
+    left: 0%;
+    width: 300px;
+    height: 100%;
+  }
+
+  div #cyan {
+    position: absolute;
+ 
+  text-align: center;
+  background: hsl(184, 100%, 22%);
+  margin: 2px solid black;
+  width: 300px;
+  height: 100%;
+}
+
+div #green {
+    position: absolute;
+  text-align: center;
+  background: hsl(179, 100%, 13%);
+  margin: 2px solid black;
+  left: 66.5%;
+  width: 300px;
+  height: 100%;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.car, .car-name, .content {
+    margin: 40px 200px 7px 0px;
+    /* padding: 0 15px; */
+
+    
+}
+h1, p, button {
+  margin: 0 auto;
+  text-align: left;
+  /* place-items: justify; */
+  font-size: 15px;
+  margin-left: 30px;
+  color: hsl(0, 0%, 95%);
+
+}
+
+h1 {
+  font-family: Big Shoulders Display;
+  font-weight: 400;
+  font-size: 30px; 
+}
+button {
+  width: 120px;
+  height: 40px;
+  border-radius: 20px;
+  background-color: hsl(0, 0%, 95%);
+  border-color: none;
+  margin-bottom:  500px;
+}
+p {
+  font-family: Lexend Deca;
+  font-weight: 400;
+  font-size: 15px;
+}
+
+.content {
+  width: 200px;
+  height: 200px;
+}
+.learn {
+  top: 370px;
+  position: absolute;
+  margin-bottom:  500px;
+  margin-right: 130px;
+  padding: auto;
+
+}
+a {
+  font-family: Lexend Deca;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 15px;
+  padding: 10px;
+}
+
+.orange:hover {
+  color:hsl(31, 99%, 52%);
+  font-size: 16px;
+  
+}
+
+.cyan:hover {
+  color:hsl(200, 100%, 22%);
+  font-size: 16px;
+}
+
+.green:hover {
+  color:hsl(189, 100%, 13%);
+  font-size: 16px;
+}
+.orange {
+  color:hsl(31, 77%, 52%);
+}
+.cyan {
+  color:hsl(184, 100%, 22%);
+}
+.green {
+  color:hsl(179, 100%, 13%);
+}
